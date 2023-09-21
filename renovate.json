@@ -15,5 +15,5 @@
       "matchPackagePatterns": ["*"]
     }
   ],
-  "baseBranches": ["master"]
+  "baseBranches": ["main"]
 }
