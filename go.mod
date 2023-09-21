@@ -3,6 +3,7 @@ module github.com/qw4990/index_advisor
 go 1.20
 
 require (
+	github.com/go-sql-driver/mysql v1.7.1
 	github.com/pingcap/parser v0.0.0-20210415081931-48e7f467fd74
 	github.com/pingcap/tidb v1.1.0-beta.0.20210415113353-05e584f145f1
 	github.com/spf13/cobra v1.7.0
@@ -19,7 +20,6 @@ require (
 	github.com/cznic/mathutil v0.0.0-20181122101859-297441e03548 // indirect
 	github.com/danjacques/gofslock v0.0.0-20191023191349-0a45f885bc37 // indirect
 	github.com/go-ole/go-ole v1.2.4 // indirect
-	github.com/go-sql-driver/mysql v1.7.1 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.3.4 // indirect
 	github.com/google/go-cmp v0.5.8 // indirect
@@ -50,7 +50,7 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.24.0 // indirect
 	golang.org/x/exp v0.0.0-20230519143937-03e91628a987 // indirect
-	golang.org/x/net v0.0.0-20210316092652-d523dce5a7f4 // indirect
+	golang.org/x/net v0.7.0 // indirect
 	golang.org/x/sync v0.0.0-20201020160332-67f06af15bc9 // indirect
 	golang.org/x/sys v0.5.0 // indirect
 	golang.org/x/text v0.9.0 // indirect
